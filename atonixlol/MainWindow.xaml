@@ -1,0 +1,185 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:atonixlol"
+        xmlns:avalonedit="http://icsharpcode.net/sharpdevelop/avalonedit" x:Name="mainwin" x:Class="atonixlol.MainWindow"
+        mc:Ignorable="d"
+        Title="FlameX" Height="350" Width="710" ResizeMode="NoResize" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}">
+    <Window.Resources>
+        <Style x:Key="ButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <EventTrigger RoutedEvent="UIElement.MouseEnter">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation
+                  Storyboard.TargetProperty="(UIElement.Opacity)"
+                  From="1.0" To="0.5" Duration="0:0:0.5" 
+                  />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+                <EventTrigger RoutedEvent="UIElement.MouseLeave">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation
+                  Storyboard.TargetProperty="(UIElement.Opacity)"
+                  From="0.5" To="1" Duration="0:0:0.1" 
+                  />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="MenuStyle" TargetType="{x:Type MenuItem}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type MenuItem}">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter Content="{TemplateBinding Header}" Margin="4 5 10 5" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsHighlighted" Value="True">
+                                <Setter Property="Background"  Value="{x:Null}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <EventTrigger RoutedEvent="UIElement.MouseEnter">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation
+                  Storyboard.TargetProperty="(UIElement.Opacity)"
+                  From="1.0" To="0.5" Duration="0:0:0.5" 
+                  />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+                <EventTrigger RoutedEvent="UIElement.MouseLeave">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation
+                  Storyboard.TargetProperty="(UIElement.Opacity)"
+                  From="0.5" To="1" Duration="0:0:0.1" 
+                  />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="ButtonStyle2" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="Gray" BorderThickness="2">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <EventTrigger RoutedEvent="UIElement.MouseEnter">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation
+                  Storyboard.TargetProperty="(UIElement.Opacity)"
+                  From="1.0" To="0.5" Duration="0:0:0.5" 
+                  />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+                <EventTrigger RoutedEvent="UIElement.MouseLeave">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation
+                  Storyboard.TargetProperty="(UIElement.Opacity)"
+                  From="0.5" To="1" Duration="0:0:0.1" 
+                  />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="ScrollBar">
+            <Setter Property="Background" Value="DimGray"/>
+        </Style>
+    </Window.Resources>
+    <Border CornerRadius="32,32,32,32" Background="#FF252525" BorderBrush="#FF444444" BorderThickness="2">
+        <Grid Margin="0,0,-16,0">
+            <Border Margin="-2,-2,14,318" CornerRadius="20,20, 0, 0" Background="#FF1F1F1F" BorderBrush="#FF444444" BorderThickness="2" MouseDown="dragwin" Loaded="startanim">
+                <Grid Margin="0,0,17,0">
+                    <Label Content="FlameX" Margin="320,2,315,-2" Foreground="#FF868686" FontFamily="Arial" FontWeight="Bold"/>
+                    <Button Margin="672,0,-11,0" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF868686" FontFamily="Segoe MDL2 Assets" Content="&#xE711;" Style="{StaticResource ButtonStyle}" Click="exitapp"/>
+                    <Button Margin="639,0,22,0" Background="{x:Null}" BorderBrush="{x:Null}"  Foreground="#FF868686" FontFamily="Segoe MDL2 Assets" Content="&#59192;" Style="{StaticResource ButtonStyle}" Click="minimize"></Button>
+                </Grid>
+            </Border>
+
+            <avalonedit:TextEditor x:Name="texteditor" HorizontalAlignment="Right" Margin="0,33,215,0" VerticalAlignment="Top" Height="255" Width="492" ShowLineNumbers="True" Foreground="#FF868686" FontFamily="Consolas" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" BorderBrush="#FF636363" BorderThickness="2" Background="#FF1D1D1D"/>
+            <Button x:Name="injbut" HorizontalAlignment="Left" Margin="14,293,0,0" VerticalAlignment="Top" Height="39" Width="102" Style="{StaticResource ButtonStyle2}" Background="{x:Null}" Foreground="#FF8E8E8E" FontFamily="Consolas" FontSize="18" FontWeight="Bold" Click="injbut_Click">
+                <StackPanel Orientation="Horizontal" Height="25">
+                    <Image Source="/injimage.png" Height="20" Width="20" RenderOptions.BitmapScalingMode="HighQuality"></Image>
+                    <TextBlock Margin="5,2,1,1">Inject</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button x:Name="exebut" HorizontalAlignment="Left" Margin="121,293,0,0" VerticalAlignment="Top" Height="39" Width="102" Style="{StaticResource ButtonStyle2}" Background="{x:Null}" Foreground="#FF8E8E8E" FontFamily="Consolas" FontSize="18" FontWeight="Bold" Click="exebut_Click">
+                <StackPanel Orientation="Horizontal" Margin="1,2,1,1">
+                    <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20">
+                        &#59240;
+                    </TextBlock>
+                    <TextBlock Margin="5,-2,1,1">
+                        Execute
+                    </TextBlock>
+                </StackPanel>
+            </Button>
+            <Button HorizontalAlignment="Left" Margin="228,293,0,0" VerticalAlignment="Top" Height="39" Width="102" Style="{StaticResource ButtonStyle2}" Background="{x:Null}" Foreground="#FF8E8E8E" FontFamily="Consolas" FontSize="18" Click="openfile">
+                <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
+                    <TextBlock FontFamily="Segoe MDL2 Assets">
+                        &#59214;
+                    </TextBlock>
+                    <TextBlock FontWeight="Bold" Margin="5,-3,1,1">
+                        Open
+                    </TextBlock>
+                </StackPanel>
+            </Button>
+            <Menu x:Name="apiselector" Margin="512,33,32,59" BorderBrush="#FF636363" Background="#FF1D1D1D" BorderThickness="2" FontSize="16" Height="254">
+                <MenuItem x:Name="WRD" Header="WeAreDevs API" Style="{StaticResource MenuStyle}" Foreground="#FF969696" FontFamily="Consolas" Click="WRDCLICK">
+
+                </MenuItem>
+                <MenuItem x:Name="FLUXUS" Header="Fluxus API" Style="{StaticResource MenuStyle}" Foreground="#FF969696" FontFamily="Consolas" Click="FLUXUSCLICK">
+
+                </MenuItem>
+                <MenuItem x:Name="KRNL" Header="Krnl API" Style="{StaticResource MenuStyle}" Foreground="#FF969696" FontFamily="Consolas" Click="KRNLCLICK">
+
+                </MenuItem>
+                <MenuItem x:Name="EZEX" Header="EasyExploits API" Style="{StaticResource MenuStyle}" Foreground="#FF969696" FontFamily="Consolas" Click="EZEXCLICK">
+
+                </MenuItem>
+            </Menu>
+            <Button HorizontalAlignment="Left" Margin="335,293,0,0" VerticalAlignment="Top" Height="39" Width="102" Style="{StaticResource ButtonStyle2}" Background="{x:Null}" Foreground="#FF8E8E8E" FontFamily="Consolas" FontSize="18" Click="cleartext">
+                <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
+                    <TextBlock FontFamily="Segoe MDL2 Assets"><Run Text="&#59213;"/></TextBlock>
+                    <TextBlock FontWeight="Bold" Margin="5,-3,1,1"><Run Text="Clear"/></TextBlock>
+                </StackPanel>
+            </Button>
+            <Button HorizontalAlignment="Left" Margin="442,293,0,0" VerticalAlignment="Top" Height="39" Width="248" Style="{StaticResource ButtonStyle2}" Background="{x:Null}" Foreground="#FF8E8E8E" FontFamily="Consolas" FontSize="18" Click="multiroblox">
+                <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
+                    <TextBlock FontFamily="Segoe MDL2 Assets"><Run Text="&#59165;"/></TextBlock>
+                    <TextBlock FontWeight="Bold" Margin="5,-3,1,1"><Run Text="Multi-Instance Roblox"/></TextBlock>
+                </StackPanel>
+            </Button>
+
+        </Grid>
+    </Border>
+</Window>

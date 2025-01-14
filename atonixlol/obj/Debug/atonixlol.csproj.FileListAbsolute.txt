@@ -1,0 +1,63 @@
+C:\Users\eforc\source\repos\atonixlol\atonixlol\bin\Debug\atonixlol.exe.config
+C:\Users\eforc\source\repos\atonixlol\atonixlol\bin\Debug\atonixlol.exe
+C:\Users\eforc\source\repos\atonixlol\atonixlol\bin\Debug\atonixlol.pdb
+C:\Users\eforc\source\repos\atonixlol\atonixlol\obj\Debug\atonixlol.csproj.AssemblyReference.cache
+C:\Users\eforc\source\repos\atonixlol\atonixlol\obj\Debug\atonixlol.csproj.SuggestedBindingRedirects.cache
+C:\Users\eforc\source\repos\atonixlol\atonixlol\obj\Debug\MainWindow.g.cs
+C:\Users\eforc\source\repos\atonixlol\atonixlol\obj\Debug\App.g.cs
+C:\Users\eforc\source\repos\atonixlol\atonixlol\obj\Debug\atonixlol_MarkupCompile.cache
+C:\Users\eforc\source\repos\atonixlol\atonixlol\obj\Debug\atonixlol_MarkupCompile.lref
+C:\Users\eforc\source\repos\atonixlol\atonixlol\obj\Debug\MainWindow.baml
+C:\Users\eforc\source\repos\atonixlol\atonixlol\obj\Debug\atonixlol.g.resources
+C:\Users\eforc\source\repos\atonixlol\atonixlol\obj\Debug\atonixlol.Properties.Resources.resources
+C:\Users\eforc\source\repos\atonixlol\atonixlol\obj\Debug\atonixlol.csproj.GenerateResource.cache
+C:\Users\eforc\source\repos\atonixlol\atonixlol\obj\Debug\atonixlol.csproj.CoreCompileInputs.cache
+C:\Users\eforc\source\repos\atonixlol\atonixlol\obj\Debug\atonixlol.exe
+C:\Users\eforc\source\repos\atonixlol\atonixlol\obj\Debug\atonixlol.pdb
+C:\Users\eforc\source\repos\atonixlol\atonixlol\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\eforc\source\repos\atonixlol\atonixlol\bin\Debug\ICSharpCode.AvalonEdit.xml
+C:\Users\eforc\source\repos\atonixlol\atonixlol\obj\Debug\atonixlol.csproj.CopyComplete
+C:\Users\eforc\source\repos\atonixlol\atonixlol\bin\Debug\FluxAPI.dll
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\obj\Debug\atonixlol.csproj.AssemblyReference.cache
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\obj\Debug\atonixlol.csproj.SuggestedBindingRedirects.cache
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\obj\Debug\MainWindow.g.cs
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\obj\Debug\App.g.cs
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\obj\Debug\atonixlol_MarkupCompile.cache
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\obj\Debug\atonixlol_MarkupCompile.lref
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\obj\Debug\atonixlol.exe
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\obj\Debug\atonixlol.pdb
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\bin\Debug\atonixlol.exe.config
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\bin\Debug\atonixlol.exe
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\bin\Debug\atonixlol.pdb
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\bin\Debug\EasyExploits.dll
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\bin\Debug\KrnlAPI.dll
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\bin\Debug\Oxygen_API.dll
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\bin\Debug\WeAreDevs_API.dll
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\bin\Debug\ICSharpCode.AvalonEdit.xml
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\obj\Debug\MainWindow.baml
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\obj\Debug\atonixlol.g.resources
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\obj\Debug\atonixlol.Properties.Resources.resources
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\obj\Debug\atonixlol.csproj.GenerateResource.cache
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\obj\Debug\atonixlol.csproj.CoreCompileInputs.cache
+C:\Users\super\Desktop\the gamer atonix source's\oinish\atonixlol\obj\Debug\atonixlol.csproj.CopyComplete
+C:\Users\super\source\repos\oinish\atonixlol\bin\Debug\atonixlol.exe.config
+C:\Users\super\source\repos\oinish\atonixlol\bin\Debug\atonixlol.exe
+C:\Users\super\source\repos\oinish\atonixlol\bin\Debug\atonixlol.pdb
+C:\Users\super\source\repos\oinish\atonixlol\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\super\source\repos\oinish\atonixlol\bin\Debug\Oxygen_API.dll
+C:\Users\super\source\repos\oinish\atonixlol\bin\Debug\ICSharpCode.AvalonEdit.xml
+C:\Users\super\source\repos\oinish\atonixlol\obj\Debug\atonixlol.csproj.AssemblyReference.cache
+C:\Users\super\source\repos\oinish\atonixlol\obj\Debug\atonixlol.csproj.SuggestedBindingRedirects.cache
+C:\Users\super\source\repos\oinish\atonixlol\obj\Debug\MainWindow.g.cs
+C:\Users\super\source\repos\oinish\atonixlol\obj\Debug\App.g.cs
+C:\Users\super\source\repos\oinish\atonixlol\obj\Debug\atonixlol_MarkupCompile.cache
+C:\Users\super\source\repos\oinish\atonixlol\obj\Debug\atonixlol_MarkupCompile.lref
+C:\Users\super\source\repos\oinish\atonixlol\obj\Debug\MainWindow.baml
+C:\Users\super\source\repos\oinish\atonixlol\obj\Debug\atonixlol.g.resources
+C:\Users\super\source\repos\oinish\atonixlol\obj\Debug\atonixlol.Properties.Resources.resources
+C:\Users\super\source\repos\oinish\atonixlol\obj\Debug\atonixlol.csproj.GenerateResource.cache
+C:\Users\super\source\repos\oinish\atonixlol\obj\Debug\atonixlol.csproj.CoreCompileInputs.cache
+C:\Users\super\source\repos\oinish\atonixlol\obj\Debug\atonixlol.csproj.CopyComplete
+C:\Users\super\source\repos\oinish\atonixlol\obj\Debug\atonixlol.exe
+C:\Users\super\source\repos\oinish\atonixlol\obj\Debug\atonixlol.pdb
